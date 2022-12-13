@@ -312,7 +312,6 @@
   margin-right: auto;
   size: 56px;
   line-height: 1.07em;
-  background-color: var(--primari-text-color);
 }
 
 .hero-title {
@@ -352,10 +351,10 @@ border-radius: 4px;
   text-align: center;
   padding-bottom: 192px;
   padding-top: 192px;
-  /* padding-left: 474px;
-  padding-right: 474px; */
-  /* align-items: center; */
-  /* width: auto; */
+  background-image: url(../images/Background.png), url(../images/Background1.jpg) ;
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover, cover;
 }
 
 /* OUR WORK */
@@ -457,3 +456,4 @@ img {
   border-top: none;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+
